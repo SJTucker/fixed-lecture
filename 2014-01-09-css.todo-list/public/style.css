@@ -1,0 +1,52 @@
+*{
+  font-family: monospace;
+}
+
+h1{
+  color: red;
+}
+
+div{
+  color: green;
+}
+
+a[href]{
+  border:1px solid red;
+}
+
+a[href="http://google.com"]{
+  background-color: yellow;
+}
+
+#first-name{
+  background-color:orange;
+}
+
+#last-name{
+  color:purple;
+}
+
+.name{
+  font-size:5px;
+}
+
+#one{
+  border: 1px dashed blue;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.x1{
+  color:red;
+}
+
+//affects any descendant of p
+div#one p{
+  background-color: purple;
+}
+
+//only affect the direct children of a div with the id(#) one
+div#one > p{
+  letter-spacing: 4px;
+}
+

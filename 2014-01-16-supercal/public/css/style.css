@@ -1,0 +1,57 @@
+@import url(http://fonts.googleapis.com/css?family=Atomic+Age);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans+Mono);
+#calculator{
+  text-align: center;
+  margin:auto;
+  width: 300px;
+  border: 1px solid black;
+  border-radius:10px;
+  font-family: 'Atomic Age', cursive;
+  color:white;
+  background-color:black;
+}
+
+h1, #pow, #push, #clear{
+  font-family: 'Droid Sans Mono', sans-serif;
+}
+
+
+#display{
+  border: 2px solid white;
+  color: black;
+  background-color: lightblue;
+  width: 100px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:right;
+}
+
+#sum{
+  size: 50px, 50px;
+}
+.key{
+  border: 3px solid white;
+  padding: 3px; 
+  border-radius: 20px;
+}
+
+.center{
+  margin-left:auto;
+  margin-right:auto;
+}
+#queue{
+  border: 2px solid black;
+  height:50px;
+  width:256px;
+  border-radius:25px;
+  margin-right:10px;
+  background-color:white;
+  color:black;
+  list-style-type:none;
+}
+
+.key:hover{
+  color:black;
+  background-color:white;
+  border:2px solid red;
+}

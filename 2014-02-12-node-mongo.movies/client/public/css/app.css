@@ -1,0 +1,12 @@
+body {
+  background-color: #add8e6;
+}
+.poster {
+  margin: 10px;
+  height: 200px;
+  width: 135px;
+}
+.button {
+  position: relative;
+  top: 45px;
+}

@@ -1,0 +1,48 @@
+h1{
+  text-align: center;
+  margin: auto;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.color{
+  width:50px;
+  height:50px;
+  float:left;
+  border: 2px dotted black;
+  margin: 15px;
+}
+
+.selectedColor{
+  border: 2px solid white;
+  outline: 3px solid black;
+}
+
+.clear{
+  clear:both;
+}
+
+.colors{
+ // border:2px solid black;
+  background-color: #aaaaaa;
+}
+
+.pixel{
+  width: 5px;
+  height: 5px;
+  border: 1px dashed black;
+  margin 1px;
+  float: left;
+}
+
+#add-pixels{
+    border: 3px solid black;
+    border-radius: 25px;
+}
+
+#pixels{
+  width:750px;
+}
+#add-colors{
+
+}

@@ -1,0 +1,50 @@
+doctype html
+//[if IE 9]><html class="lt-ie10" lang="en" > <![endif]
+html(class='no-js', lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Todo List
+    link(rel='stylesheet', href='/css/normalize.css')
+    link(rel='stylesheet', href='/css/foundation.css')
+    link(rel='stylesheet', href='/css/app.css')
+    script(src='/js/vendor/modernizr.js')
+  body
+    .row
+      .small-12.columns
+        h1 Todo List
+    .row
+      .small-10.columns
+      .small-2.columns
+        button#togglePriorities Edit Priorities
+    .row
+      .small-2.columns
+        button#toggleNewPriority Create New Priorities
+        button#togglePriorityList Edit Existing Priorities
+      .small-4.columns
+        form#priority
+          fieldset
+            legend Priority
+            .row-12.columns
+              label Name
+              input(type='text', name='name')
+            .row-12.columns
+              label Value
+              input(type='text', name='value')
+            .row-12.columns
+              button Create Priority
+      .small-6.columns
+        table#priorities
+          tr
+            th Name
+            th Value
+            th
+            th Delete
+          tbody
+
+
+    script(src='/js/vendor/jquery.js')
+    script(src='/js/vendor/foundation.js')
+    script(src='/js/vendor/lodash.js')
+    script(src='/js/source/main.js')
+

@@ -1,0 +1,94 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800);
+
+#main{
+  border:1px solid red;
+  width:960px;
+  margin:0px auto;
+}
+
+body{
+  background: url(images/bg-sand.png);
+}
+
+h1{
+  font-size:84px;
+  font-weight:bold;
+  color: red;
+  font-family: 'Open Sans', sans-serif;
+  text-align:center;
+  margin:0;
+}
+
+h2{
+  font-size:55px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:normal;
+  text-align:center;
+  margin:0;
+}
+
+
+nav li{
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav a{
+  text-decoration:none;
+  color:black;
+  margin:0 15px;
+  font-size:13px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav ul{
+  float:right;
+}
+
+a:hover{
+  text-decoration:underline;
+}
+
+.clear{
+  clear:both;
+}
+
+#accordian li{
+  list-style-type:none;
+  display:inline-block;
+  margin:-4px;
+}
+
+.image{
+  width:200px;
+  height:300px;
+  overflow:hidden;
+}
+
+.image-size{
+  height:260px;
+  width:260px;
+}
+
+#image-1{
+  background: url(images/bg-lightbeam.jpg),  -80px 0;
+}
+
+#image-2{
+  
+  background:#0095dd url(images/firefox.png) -100px -100px;
+  background-size:300px 400px;
+}
+
+#image-3{
+  
+  background: rgb(225, 235, 237) url(images/m_logo.png) -60px 10px;
+  background-repeat:no-repeat;
+  background-size:250px;
+}
+
+#image-4{
+  background:black url(images/logo-mdn.svg) -30px 20px ;
+  background-size:200px;
+  background-repeat:no-repeat;
+}

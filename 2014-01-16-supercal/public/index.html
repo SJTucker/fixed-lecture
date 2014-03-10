@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Super Calculator</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/jquery.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/logic.js"></script>
+  </head>
+  <body>
+    <div id="calculator">
+        <h1>Super Calc</h1>
+     <table class="center">
+       <tr>
+        <div id="display">0</div>
+      </tr>
+      <tr>
+        <td><div class="number key" id="number7">7</div></td>
+        <td><div class="number key" id="number8">8</div></td>
+        <td><div class="number key" id="number9">9</div></td>
+        <td><div class="operator key" id="add">+</div></td>
+      </tr>
+      <tr>
+        <td><div class="number key" id="number4">4</div></td>
+        <td><div class="number key" id="number5">5</div></td>
+        <td><div class="number key" id="number6">6</div></td>
+        <td><div class="operator key" id="sub">-</div></td>
+      </tr> 
+        <td><div class="number key" id="number1">1</div></td>
+        <td><div class="number key" id="number2">2</div></td>
+        <td><div class="number key" id="number3">3</div></td>
+        <td><div class="operator key" id="mult">*</div></td>
+       <tr>
+         <td><div class="number key" id="number0">0</div></td>
+         <td><div class="number key" id="number.">.</div></td>
+         <td><div class="key" id="push">push</div></td>
+         <td><div class="operator key" id="divide">/</div></td>
+      </tr>
+      <tr>
+        <td width=50px><div class="key operator" id="sum">Σ</div></td>
+        <td width=50px ><div class="key operator" id="pow">exp</div></td>
+        <td width=50px><div class="key" id="clear">c</div></td>
+        <td width=50px><div class="key neg" id="neg">+/-</div></td>
+      </tr>
+     </table>
+        <ul id="queue"></ul>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset='utf-8')
+    title Jade Tutorial
+    link(rel='stylesheet', href='/css/style.css')
+    script(src='js/vendor/jquery-1.10.2.js')
+    script(src='js/source/main.js')
+  body
+    header
+      h1 Welcome to Jade!
+        ul
+          li a
+          li b
+
+    #section
+      -var firstName='sam';
+      h2=firstName
+      - for(var i =0; i < 100; i++)
+        h3 hello
+        h2 world
+        h4=i
+      h2 Section 1
+      p This is paragraph 1
+      p 
+        | This is paragraph 2
+        br
+        | Addendum to paragraph 2
+        br
+        span Span 1
+      img(src="http://upload.wikimedia.org/wikipedia/commons/6/69/Grapevinesnail_01.jpg")
+      footer.foot1.foot2#footerid

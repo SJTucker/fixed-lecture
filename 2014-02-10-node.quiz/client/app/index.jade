@@ -1,0 +1,37 @@
+doctype html
+//[if IE 9]><html class="lt-ie10" lang="en" > <![endif]
+html(class='no-js', lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Foundation 5
+    link(rel='stylesheet', href='/css/normalize.css')
+    link(rel='stylesheet', href='/css/foundation.css')
+    link(rel='stylesheet', href='/css/app.css')
+    script(src='/js/vendor/modernizr.js')
+  body
+    .row
+      .small-12.columns
+        h1 Animal Farm
+    .row
+      .small-6.columns
+        textarea#names(type = text, placeholder = 'names')
+      .small-6.columns
+        button#calc Calc
+
+   .row
+     .small-3.columns
+       select#animal
+         option(value='Dog') Dog
+         option(value='Cat') Cat
+     .small-5.columns
+       input#name(type=text, placeholder=name)
+       input#gender(type=text, placeholder=gender)
+       input#age(type=text, placeholder=age)
+     .small-4.columns
+       button#create Create
+  script(src='/js/vendor/jquery.js')
+  script(src='/js/vendor/foundation.js')
+  script(src='/js/vendor/lodash.js')
+  script(src='/js/source/main.js')
+
